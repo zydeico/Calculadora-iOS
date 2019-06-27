@@ -46,42 +46,55 @@ final class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // MARK: UI Button
+        number0.round()
+        number1.round()
+        number2.round()
+        number3.round()
+        number4.round()
+        number5.round()
+        number6.round()
+        number7.round()
+        number8.round()
+        number9.round()
+        
+        
     }
     // MARK: Actions
     // AC
-    @IBAction func operatorAcAction(_ sender: Any) {
+    @IBAction func operatorAcAction(_ sender: UIButton) {
         
     }
     // +/-
-    @IBAction func operatorPlusMinus(_ sender: Any) {
+    @IBAction func operatorPlusMinus(_ sender: UIButton) {
         
     }
     // Porcentaje
-    @IBAction func operatorPercentAction(_ sender: Any) {
+    @IBAction func operatorPercentAction(_ sender: UIButton) {
         
     }
     // Resultado
-    @IBAction func operatorResultAction(_ sender: Any) {
+    @IBAction func operatorResultAction(_ sender: UIButton) {
         
     }
     // Mas
-    @IBAction func operatorAdditionAction(_ sender: Any) {
+    @IBAction func operatorAdditionAction(_ sender: UIButton) {
         
     }
     // Menos
-    @IBAction func operatorSubstractionAction(_ sender: Any) {
+    @IBAction func operatorSubstractionAction(_ sender: UIButton) {
         
     }
     // Multiplicación
-    @IBAction func operatorMultiplicationAction(_ sender: Any) {
+    @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
         
     }
     // División
-    @IBAction func operatorDivitionAction(_ sender: Any) {
+    @IBAction func operatorDivitionAction(_ sender: UIButton) {
         
     }
     // Coma
-    @IBAction func operationSeparatorAction(_ sender: Any) {
+    @IBAction func operationSeparatorAction(_ sender: UIButton) {
         
     }
     
