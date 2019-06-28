@@ -366,9 +366,9 @@
                         </stackView>
                     </subviews>
                 </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYk-Ja-soe">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="XYk-Ja-soe">
                     <rect key="frame" x="20" y="93.5" width="335" height="90"/>
-                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="75"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="75"/>
                     <color key="textColor" red="0.98039215690000003" green="0.98823529409999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
