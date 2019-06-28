@@ -1,5 +1,9 @@
 # iOS Calculator Clone
 
-- Code make on Swift 4
+- Code on Swift 4
 
-Only clone the repo and run
+# To do
+
+- [ ] Add an icon to the App
+
+Just clone the repo, open with xCode and run.
