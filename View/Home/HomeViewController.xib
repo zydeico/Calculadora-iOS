@@ -67,7 +67,7 @@
                                         <constraint firstAttribute="width" secondItem="K3W-FG-S7m" secondAttribute="height" multiplier="1:1" id="C6c-FD-oks"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                    <state key="normal" title="+-">
+                                    <state key="normal" title="±">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <connections>

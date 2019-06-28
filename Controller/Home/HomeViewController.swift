@@ -65,7 +65,7 @@ final class HomeViewController: UIViewController {
         return formatter
     }()
     
-    // Formateador de fracciones
+    // Formateo de fracciones
     private let auxTotalFormatter: NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.groupingSeparator = ""
@@ -77,7 +77,7 @@ final class HomeViewController: UIViewController {
         return formatter
     }()
     
-    // Formateo de vaolres por pantalla por defecto
+    // Formateo de valores por pantalla por defecto
     private let printFormatter: NumberFormatter = {
         let formatter = NumberFormatter()
         let locale = Locale.current
