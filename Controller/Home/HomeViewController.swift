@@ -46,6 +46,7 @@ final class HomeViewController: UIViewController {
     // MARK: - Constantes
     private let kDecimalSeparator = Locale.current.decimalSeparator!
     private let kMaxLenght = 9
+    private let kTotal = "total"
     
     private enum OperationType {
         case none, addiction, substraction, multiplication, division, percent
@@ -109,7 +110,13 @@ final class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        numberDecimal.setTitle(kDecimalSeparator, for: .normal)
+        total = UserDefaults.standard.double(forKey: kTotal)
+        result()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         // MARK: UI Button
         number0.round()
         number1.round()
@@ -122,7 +129,6 @@ final class HomeViewController: UIViewController {
         number8.round()
         number9.round()
         numberDecimal.round()
-        
         operatorAC.round()
         operatorPlusMinus.round()
         operatorPercent.round()
@@ -131,14 +137,9 @@ final class HomeViewController: UIViewController {
         operatorSubstraction.round()
         operatorMultiplication.round()
         operatorDivision.round()
-        
-        numberDecimal.setTitle(kDecimalSeparator, for: .normal)
-        
-        result()
     }
     
     // MARK: Actions
-    
     // AC
     @IBAction func operatorAcAction(_ sender: UIButton) {
         clear()
@@ -301,6 +302,7 @@ final class HomeViewController: UIViewController {
         }
         operation = .none
         selectVisualOperation()
+        UserDefaults.standard.set(total, forKey: kTotal)
         print("TOTAL: \(total)")
     }
     
