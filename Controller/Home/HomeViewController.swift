@@ -58,44 +58,51 @@ final class HomeViewController: UIViewController {
         number8.round()
         number9.round()
         
-        
+        operatorAC.round()
+        operatorPlusMinus.round()
+        operatorPercent.round()
+        operatorResult.round()
+        operatorAddition.round()
+        operatorSubstraction.round()
+        operatorMultiplication.round()
+        operatorDivision.round()
     }
     // MARK: Actions
     // AC
     @IBAction func operatorAcAction(_ sender: UIButton) {
-        
+        sender.shine()
     }
     // +/-
     @IBAction func operatorPlusMinus(_ sender: UIButton) {
-        
+        sender.shine()
     }
     // Porcentaje
     @IBAction func operatorPercentAction(_ sender: UIButton) {
-        
+        sender.shine()
     }
     // Resultado
     @IBAction func operatorResultAction(_ sender: UIButton) {
-        
+        sender.shine()
     }
     // Mas
     @IBAction func operatorAdditionAction(_ sender: UIButton) {
-        
+        sender.shine()
     }
     // Menos
     @IBAction func operatorSubstractionAction(_ sender: UIButton) {
-        
+        sender.shine()
     }
     // Multiplicación
     @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
-        
+        sender.shine()
     }
     // División
     @IBAction func operatorDivitionAction(_ sender: UIButton) {
-        
+        sender.shine()
     }
     // Coma
     @IBAction func operationSeparatorAction(_ sender: UIButton) {
-        
+        sender.shine()
     }
     
     // MARK: Number Action
